@@ -54,7 +54,7 @@ def main():
     prices.index = prices.index.date
 
     returns = compute_log_returns(prices)
-    
+
     Path("data/processed").mkdir(parents=True, exist_ok=True)
     prices.to_parquet(cfg["price_path"])
     returns.to_parquet(cfg["returns_path"])
