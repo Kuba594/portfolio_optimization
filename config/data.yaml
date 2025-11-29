@@ -1,5 +1,5 @@
 universe: ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "JPM", "XOM", "NVDA", "PG", "V"]
-start: "2010-01-01"
+start: "2020-01-01"
 end: "2024-12-31"
 price_path: "data/processed/daily_prices.parquet"
 returns_path: "data/processed/daily_returns.parquet"
