@@ -2,5 +2,6 @@
 .venv
 data/
 .idea
-*/__pycache__
+__pycache__/
 src/cli/__pycache__
+tfenv/
