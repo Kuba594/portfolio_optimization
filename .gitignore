@@ -1,6 +1,5 @@
 .DS_Store
 .venv
-data/
 .idea
 __pycache__/
 src/cli/__pycache__
